@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Podcast proyecto numero 1 de curso Web Full stack Acamica">
+    <meta name="keywords" content="HTML,CSS,acamica,podcast,practico">
+    <meta name="author" content="Federico Capucci">
+    <title>Podcast V3</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <!-- External links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,300,400,500,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#"><img class="logo" src="/images/logo.svg" alt="logo"></a>
+                <input type="checkbox" id="toggle">
+                <label for="toggle" class="Hamburger-btn"><i class="fas fa-bars"></i></label>
+                <label for="toggle" class="close-btn"><i class="fas fa-times"></i></label>
+                <div class="navigation-links">
+                    <a href="#episodios">EPISODIOS</a>
+                    <a href="#nosotros">NOSOTROS</a>
+                    <a href="#invitados">ENTREVISTAS</a>
+                    <a href="#temas">TÓPICOS</a>
+                </div>
+            </nav>
+            <div class="main-title">
+                <h3>Hello <del>world</del></h3>
+                <h3>pale blue dot<span style="color: #0000EC;">.</span></h3>
+            </div>
+        </header>
+        <main>
+            <section>
+                <p class="p1-mobile">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+                <p class="p1-desktop">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+                <a href="http://www.google.com" target="_blank" class="button1">CONOCÉ MÁS</a>
+                <div class="blue-rectangle"></div>
+                <div class="podcast-container">
+                    <h3 id="episodios">Episodios</h3>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"></iframe>
+                </div>
+                <img src="/images/phone.png" alt="The secret history of women in coding" class="phone-pic" />
+            </section>
+            <section>
+                <div class="second-title">
+                    <h3 id="nosotros">De dónde venimos</h3>
+                    <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.<br><br>Our planet is a lonely speck in the great enveloping cosmic dark.
+                        <br> In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+                </div>
+            </section>
+            <section>
+
+                <div class="third-title">
+                    <h3 id=invitados>Invitadas/os estelares</h3>
+                    <div class="picture-container">
+                        <a href="/images/grace-hopper.png" target="_blank"><img src="/images/grace-hopper.png" alt="Grace Hopper"></a>
+                        <a href="/images/Katie-Bouman.png" target="_blank"><img src="/images/Katie-Bouman.png" alt="Katie Bouman"></a>
+                        <a href="/images/Margaret_Hamilton.png" target="_blank"><img src="/images/Margaret_Hamilton.png" alt="Margaret Hamilton"></a>
+                        <a href="/images/E.R.A.Univac_1103_computer_1950s.png" target="_blank"><img src="/images/E.R.A.Univac_1103_computer_1950s.png" alt="An E.R.A.Univac 1103 computer in the 1950s"></a>
+                        <a href="/images/Computer_operators_with_an_Eniac_—_world_first_programmable_general-purpose_computer.png" target="_blank"><img src="/images/Computer_operators_with_an_Eniac_—_world_first_programmable_general-purpose_computer.png" alt="Computer operators with an Eniac — the world’s first programmable general-purpose computer"></a>
+                        <a href="/images/susan-kare.png" target="_blank"><img src="/images/susan-kare.png" alt="susan-kare"></a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="fourth-title">
+                    <h3 id=temas>Algunos de nuestros temas</h3>
+
+                    <div class="icon-container">
+                        <img src="/images/icon1.svg" alt="trabajo remoto">
+                        <p>Trabajo remoto</p>
+                    </div>
+                    <div class="icon-container">
+                        <img src="/images/icon2.svg" alt="repensando programacion">
+                        <p>Repensando la programacion</p>
+                    </div>
+                    <div class="icon-container">
+                        <img src="/images/icon3.svg" alt="bases en codigo">
+                        <p>Bases del código</p>
+                    </div>
+                    <div class="icon-container">
+                        <img src="/images/icon4.svg" alt="Seguridad informatica">
+                        <p>Seguridad informatica</p>
+                    </div>
+                </div>
+                <div class="blue-rectangle2"></div>
+                <h3 class="latest-news">¿Querés las últimas novedades?</h3>
+                <a href="http://www.google.com" target="_blank" class="button2">ESCUCHÁ LOS EPISODIOS</a>
+            </section>
+        </main>
+        <footer>
+            <h3>© 2019— Hello blue pale dot</h3>
+            <div class="social-network-container">
+                <a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://telegram.org/" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+            <a href="#"><i class="fas fa-arrow-circle-up back-to-top"></i></a>
+        </footer>
+    </div>
+</body>
+
+</html>
