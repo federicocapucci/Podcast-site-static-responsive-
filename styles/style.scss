@@ -64,7 +64,7 @@ nav {
     color: #FFFFFF;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 24px 0px;
+    padding: 20px 0px;
     -webkit-transition: 0.2s linear;
     -o-transition: 0.2s linear;
     transition: 0.2s linear;
@@ -561,7 +561,8 @@ a .back-to-top {
         margin-left: 100px;
     }
     .navigation-links {
-        width: 100%;
+        width: 550px;
+        margin-right: 5%;
         max-width: 720px;
         display: -webkit-box;
         display: flex;
@@ -569,7 +570,6 @@ a .back-to-top {
         -ms-flex-pack: distribute;
         justify-content: space-around;
         background-color: #ffffff;
-        margin-right: 5%;
     }
     .navigation-links a {
         color: #060A24;
@@ -581,7 +581,7 @@ a .back-to-top {
         display: none;
     }
     .main-title {
-        margin-left: 13.9%;
+        margin-left: 12.5%;
         margin-top: 140px;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
