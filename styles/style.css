@@ -758,7 +758,7 @@ iframe:hover {
 }
 
 body {
-  background-image: url(./images/background.png);
+  background-image: url(images/background.png);
   background-attachment: fixed;
   background-size: 50%;
   -webkit-animation: expanse 20s linear alternate infinite;
